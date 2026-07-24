@@ -1,8 +1,24 @@
 aid: bilimber-pte-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bilimber-pte-ltd.png
 name: Bilimber Pte. Ltd.
-description: Bilimber Pte. Ltd. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bilimber Pte. Ltd. is a Singapore-based private company (exempt private company limited by
+  shares) incorporated on 2020-11-17, operating in research and experimental development on electronics.
+  It was surfaced as a portfolio company of 500 Global (an early/seed-stage investor alongside a Hong
+  Kong government program) and added to the API Evangelist network as a stub. As of this enrichment pass
+  the company publishes no public website, developer portal, documentation, or API surface -- the
+  bilimber.com domain is currently unregistered and does not resolve -- so no first-party API artifacts
+  could be searched, derived, or generated. This profile remains a lead awaiting a public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/bilimber-pte-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+x-domain-status: unregistered
+x-enrichment-note: 'bilimber.com is unregistered (no DNS, whois no-match) and no alternate TLD resolves;
+  company has no public website, docs, or API. No artifacts producible without fabrication.'
 tags:
 - Company
+- Singapore
+- Electronics
+- Research and Development
+- Startup
+- Seed Stage
+- 500 Global Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: https://bilimber.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
