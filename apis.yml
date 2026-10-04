@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bilimber-pte-ltd.png
-name: Bilimber Pte. Ltd.
+name: Bilimber
 description: Bilimber Pte. Ltd. is a Singapore-based private company (exempt private company limited by
   shares) incorporated on 2020-11-17, operating in research and experimental development on electronics.
   It was surfaced as a portfolio company of 500 Global (an early/seed-stage investor alongside a Hong
@@ -48,7 +48,6 @@ tags:
 - Singapore
 - Electronics
 - Research and Development
-- Startups
 - Seed Stage
 - 500 Global Portfolio
 tags_raw:
@@ -56,7 +55,6 @@ tags_raw:
 - Singapore
 - Electronics
 - Research and Development
-- Startup
 - Seed Stage
 - 500 Global Portfolio
 apis: []
@@ -73,3 +71,8 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Bilimber Pte. Ltd.
+x-tags-removed:
+- Startups
+x-company-stage: seed
+x-company-stage-evidence: "own tags: Startup, Seed Stage"
